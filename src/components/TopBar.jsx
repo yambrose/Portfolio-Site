@@ -38,7 +38,7 @@ export default function TopBar() {
                 <button onClick={() => scrollToSection('about')} className={`text-gray-50 ${!isShrunk ? 'text-xl' : 'text-lg'} transition-all duration-300`}>About Me</button>
                 <button onClick={() => scrollToSection('projects')} className={`text-gray-50 ${!isShrunk ? 'text-xl' : 'text-lg'} transition-all duration-300`}>Projects</button>
                 <button onClick={() => scrollToSection('contact')} className={`text-gray-50 ${!isShrunk ? 'text-xl' : 'text-lg'} transition-all duration-300`}>Contact</button>
-                <button className={`text-gray-50 ${!isShrunk ? 'text-xl p-2' : 'text-lg p-1'} bg-blueberry-900 border-yellow-500 box-border border-2 rounded-lg text-yellow-500 shadow-md hover:bg-yellow-500 hover:text-blueberry-900 transition-all duration-300`}>
+                <button onClick={() => window.open('/Ambrose_Yip_CV_2024.pdf', '_blank')} className={`text-gray-50 ${!isShrunk ? 'text-xl p-2' : 'text-lg p-1'} bg-blueberry-900 border-yellow-500 box-border border-2 rounded-lg text-yellow-500 shadow-md hover:bg-yellow-500 hover:text-blueberry-900 transition-all duration-300`}>
                     Resume
                 </button>
             </div>
@@ -54,7 +54,7 @@ export default function TopBar() {
                         <button onClick={() => scrollToSection('about')} className={`text-gray-50 ${!isShrunk ? 'text-xl' : 'text-lg'} transition-all duration-300`}>About Me</button>
                         <button onClick={() => scrollToSection('projects')} className={`text-gray-50 ${!isShrunk ? 'text-xl' : 'text-lg'} transition-all duration-300`}>Projects</button>
                         <button onClick={() => scrollToSection('contact')} className={`text-gray-50 ${!isShrunk ? 'text-xl' : 'text-lg'} transition-all duration-300`}>Contact</button>
-                        <button className={`text-gray-50 ${!isShrunk ? 'text-xl p-2' : 'text-lg p-1'} bg-blueberry-900 border-yellow-500 box-border border-2 rounded-lg text-yellow-500 shadow-md hover:bg-yellow-500 hover:text-blueberry-900 transition-all duration-300`}>
+                        <button onClick={() => window.open('/Ambrose_Yip_CV_2024.pdf', '_blank')} className={`text-gray-50 ${!isShrunk ? 'text-xl p-2' : 'text-lg p-1'} bg-blueberry-900 border-yellow-500 box-border border-2 rounded-lg text-yellow-500 shadow-md hover:bg-yellow-500 hover:text-blueberry-900 transition-all duration-300`}>
                             Resume
                         </button>
                     </div>

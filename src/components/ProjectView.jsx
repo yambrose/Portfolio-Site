@@ -48,10 +48,6 @@ const ProjectView = forwardRef(function ProjectView({ project, handleCloseView }
                         <h2 className='font-semibold text-yellow-500 text-xl md:text-3xl'>About</h2>
                         <p className='text-lg'>{project.description}</p>
                     </div>
-                    <div className='w-full'>
-                        <h2 className='font-semibold text-yellow-500 text-xl md:text-3xl'>Skills</h2>
-                        {/* Skills can be displayed here if needed */}
-                    </div>
                 </div>
                 <div className='flex flex-col md:flex-row py-2'>
                     <div className='w-3/4 flex flex-wrap gap-2 items-center'>
