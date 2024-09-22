@@ -3,7 +3,7 @@ import ProfilePicture from '../assets/ProfilePicture.jpeg';
 export default function FrontPage() {
     return (
         <>
-            <section
+            <section id='home'
                 className='bg-gradient-to-b from-blueberry-700 to-blueberry-900 h-screen place-items-center justify-center gap-4 flex flex-col
                 md:flex-row p-4'
             >

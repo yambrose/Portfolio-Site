@@ -6,20 +6,19 @@ import ProjectView from './ProjectView';
 export default function Portfolio() {
 
     const [selectedProject, setSelectedProject] = useState(null);
-    const dialogRef = useRef();
 
-    function handleSelectProject(project) {
+    function expandProject(project) {
         setSelectedProject(project);
-        dialogRef.current.showModal();
+        document.body.style.overflow = 'hidden';
     }
 
-    function handleCloseModal() {
+    function closeProject() {
         setSelectedProject(null);
-        dialogRef.current.close();
+        document.body.style.overflow = 'auto';
     }
 
     return (
-        <section
+        <section id="projects"
             className='bg-gradient-to-b from-blueberry-700 to-blueberry-900 min-h-screen h-max
                 place-items-center justify-center gap-4 flex flex-col p-8
                 lg:flex-row lg:justify-start'
@@ -34,12 +33,13 @@ export default function Portfolio() {
                     A collection of my work
                 </h2>
                 <ul className='flex flex-wrap gap-2'>
-                    {PROJECTS.map((project, index) => <Card index={index} project={project} onClick={handleSelectProject} />)}
+                    {PROJECTS.map((project, index) => (
+                        <Card index={index} project={project} onClick={expandProject} />
+                    ))}
                 </ul>
-                {/* a centered absolute div */}
-                {selectedProject && <ProjectView ref={dialogRef} handleCloseModal={handleCloseModal} />}
-
-
+                {selectedProject && 
+                    <ProjectView project={selectedProject} handleCloseView={closeProject} />
+                }
             </div>
         </section>
     );
