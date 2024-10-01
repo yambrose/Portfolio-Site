@@ -8,7 +8,7 @@ export default function FrontPage() {
                 className='bg-gradient-to-b from-blueberry-700 to-blueberry-900 h-screen place-items-center justify-center gap-4 flex flex-col
                 md:flex-row p-4'
             >
-                <img src={ProfilePicture} className='min-h-80 lg:min-h-massive aspect-square m-12 rounded-lg' />
+                <img src={ProfilePicture} className='object-cover max-h-80 lg:min-h-massive aspect-square m-12 rounded-lg' />
 
                 <RevealOnScroll>
                     <div className='h-fit flex flex-col'>

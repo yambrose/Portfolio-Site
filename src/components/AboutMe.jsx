@@ -1,4 +1,4 @@
-import ProfilePicture from '../assets/ProfilePicture.jpeg';
+import ProfilePicture from '../assets/ProfilePicture2.jpeg';
 import RevealOnScroll from './RevealOnScroll';
 
 export default function AboutMe() {
@@ -28,7 +28,7 @@ export default function AboutMe() {
                 <RevealOnScroll>
                     <div className='flex justify-center'>
                         <img src={ProfilePicture}
-                            className='h-52 w-52 md:h-64 md:w-64 lg:min-h-massive lg:min-w-massive aspect-square m-12 rounded-lg' />
+                            className='object-cover h-52 w-52 md:h-64 md:w-64 lg:min-h-massive lg:min-w-massive aspect-square m-12 rounded-lg' />
                     </div>
                 </RevealOnScroll>
             </section>
