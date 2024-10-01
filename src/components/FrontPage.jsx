@@ -1,11 +1,22 @@
 import ProfilePicture from '../assets/ProfilePicture.jpeg';
 import RevealOnScroll from './RevealOnScroll';
 
+import CSS from '../assets/codebase/css.svg';
+import django from '../assets/codebase/django.svg';
+import html from '../assets/codebase/html.svg';
+import javascript from '../assets/codebase/javascript.svg';
+import node from '../assets/codebase/node.svg';
+import python from '../assets/codebase/python.svg';
+import react from '../assets/codebase/react.svg';
+import tailwind from '../assets/codebase/tailwind.svg';
+import typescript from '../assets/codebase/typescript.svg';
+import mysql from '../assets/codebase/mysql.svg';
+
 export default function FrontPage() {
     return (
         <>
             <section id='home'
-                className='bg-gradient-to-b from-blueberry-700 to-blueberry-900 h-screen place-items-center justify-center gap-4 flex flex-col
+                className='bg-gradient-to-b from-blueberry-700 to-blueberry-900 h-full md:h-screen place-items-center justify-center gap-4 flex flex-col
                 md:flex-row p-4'
             >
                 <img src={ProfilePicture} className='object-cover max-h-80 lg:min-h-massive aspect-square m-12 rounded-lg' />
@@ -19,14 +30,20 @@ export default function FrontPage() {
                                 with a passion for crafting engaging and responsive websites.
                             </h2>
                         </div>
-                        <div className='text-gray-50 text-4xl flex place-items-center justify-center
-                        bg-blueberry-600 p-2 rounded-md shadow-lg
+                        <div className='text-gray-50 text-4xl flex flex-wrap gap-4 place-items-center justify-center
+                        bg-blueberry-600 p-2 rounded-md shadow-lg m-4
                         md:bg-transparent md:shadow-none md:justify-start'
                         >
-                            <img className='w-16 md:w-20' src='https://img.icons8.com/color/48/000000/html-5--v1.png' />
-                            <img className='w-16 md:w-20' src='https://img.icons8.com/color/48/000000/css3.png' />
-                            <img className='w-16 md:w-20' src='https://img.icons8.com/color/48/000000/javascript--v1.png' />
-                            <img className='w-16 md:w-20' src='https://img.icons8.com/color/48/000000/react-native.png' />
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={html} /></div>
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={CSS} /></div>
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={javascript} /></div>
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={react} /></div>
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={tailwind} /></div>
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={python} /></div>
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={django} /></div>
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={node} /></div>
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={typescript} /></div>
+                            <div className='group'><img className='group-hover:animate-bounce w-16 md:w-19' src={mysql} /></div>
                         </div>
                     </div>
                 </RevealOnScroll>

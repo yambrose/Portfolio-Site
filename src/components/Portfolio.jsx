@@ -3,6 +3,16 @@ import PROJECTS from '../data/projects';
 import Card from './Card';
 import ProjectView from './ProjectView';
 
+import CSS from '../assets/codebase/css.svg';
+import django from '../assets/codebase/django.svg';
+import html from '../assets/codebase/html.svg';
+import javascript from '../assets/codebase/javascript.svg';
+import node from '../assets/codebase/node.svg';
+import python from '../assets/codebase/python.svg';
+import react from '../assets/codebase/react.svg';
+import tailwind from '../assets/codebase/tailwind.svg';
+import typescript from '../assets/codebase/typescript.svg'; 
+
 export default function Portfolio() {
 
     const [selectedProject, setSelectedProject] = useState(null);
