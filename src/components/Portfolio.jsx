@@ -1,20 +1,9 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import PROJECTS from '../data/projects';
 import Card from './Card';
 import ProjectView from './ProjectView';
 
-import CSS from '../assets/codebase/css.svg';
-import django from '../assets/codebase/django.svg';
-import html from '../assets/codebase/html.svg';
-import javascript from '../assets/codebase/javascript.svg';
-import node from '../assets/codebase/node.svg';
-import python from '../assets/codebase/python.svg';
-import react from '../assets/codebase/react.svg';
-import tailwind from '../assets/codebase/tailwind.svg';
-import typescript from '../assets/codebase/typescript.svg'; 
-
 export default function Portfolio() {
-
     const [selectedProject, setSelectedProject] = useState(null);
 
     function expandProject(project) {
@@ -28,28 +17,27 @@ export default function Portfolio() {
     }
 
     return (
-        <section id="projects"
-            className='bg-gradient-to-b from-blueberry-700 to-blueberry-900 min-h-screen h-max
-                place-items-center justify-center gap-4 flex flex-col p-8
-                lg:flex-row lg:justify-start'
+        <section
+            id="projects"
+            className="bg-gradient-to-b from-blueberry-700 to-blueberry-900 min-h-screen h-max place-items-center justify-center gap-4 flex flex-col p-8 lg:flex-row lg:justify-start"
         >
-            <div className="h-fit flex flex-col justify-start text-center
-                lg:justify-center lg:text-left"
-            >
+            <div className="h-fit flex flex-col justify-start text-center lg:justify-center lg:text-left">
                 <h1 className="font-semibold text-yellow-500 text-5xl mt-16 lg:mt-0 md:text-6xl">
                     Projects
                 </h1>
-                <h2 className='font-semibold text-cyan-500 text-xl md:text-3xl'>
+                <h2 className="font-semibold text-cyan-500 text-xl md:text-3xl">
                     A collection of my work
                 </h2>
-                <ul className='flex flex-wrap gap-2'>
+                <ul className="flex flex-wrap gap-4">
                     {PROJECTS.map((project, index) => (
-                        <Card index={index} project={project} onClick={expandProject} />
+                        <li key={index} onClick={() => expandProject(project)}>
+                            <Card project={project} />
+                        </li>
                     ))}
                 </ul>
-                {selectedProject && 
+                {selectedProject && (
                     <ProjectView project={selectedProject} handleCloseView={closeProject} />
-                }
+                )}
             </div>
         </section>
     );
