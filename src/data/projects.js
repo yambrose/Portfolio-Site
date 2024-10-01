@@ -15,7 +15,7 @@ const projects = [
     },
     {
         title: 'Web Chat Server',
-        description: 'real-time chat server that facilitates online messaging between multiple users. This uses WebSocket for real-time communication using RESTful APIs.',
+        description: 'Real-time chat server that facilitates online messaging between multiple users. This uses WebSocket for real-time communication using RESTful APIs.',
         sampleImage: '1ChatServer.png',
         githubUrl: 'https://github.com/',
         skills: ['HTML', 'CSS', 'Javascript', 'Java', 'Maven', 'Glassfish']
