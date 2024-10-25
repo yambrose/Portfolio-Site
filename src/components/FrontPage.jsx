@@ -26,8 +26,8 @@ export default function FrontPage() {
                         <div className='h-3/5'>
                             <h2 className='text-gray-50 text-center text-4xl h-massive text-shadow-md md:text-left xl:text-6xl'>
                                 I'm Ambrose Yip, a
-                                <div className='text-yellow-500 text-5xl md:text-6xl xl:text-7xl font-semibold'>Front-End Developer </div>
-                                with a passion for crafting engaging and responsive websites.
+                                <div className='text-yellow-500 text-5xl md:text-6xl xl:text-7xl font-semibold'>Software Developer</div>
+                                with a passion for creating impactful digital experiences, from engaging and responsive websites to data-driven applications.
                             </h2>
                         </div>
                         <div className='text-gray-50 text-4xl flex flex-wrap gap-4 place-items-center justify-center
