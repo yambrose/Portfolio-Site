@@ -20,7 +20,11 @@ export default function AboutMe() {
                     <RevealOnScroll>
                         <p className='text-gray-50 text-sm overflow-y-auto text-ellipsis whitespace-normal
                      min-h-40 lg:text-lg pt-2 lg:pt-4'>
-                            As a passionate computer science student at Ontario Tech University, I bring a blend of creativity and technical expertise to the field of software development. My journey started with creating engaging visuals for my YouTube channel, sparking an enduring interest in crafting seamless, user-friendly digital experiences. Today, I am skilled in front-end technologies like HTML, CSS, JavaScript, React, and Vue.js, and I also have robust experience with back-end, data analysis, and machine learning, which allow me to work across full-stack development and data-driven applications. I excel in transforming complex requirements into innovative, functional solutions and am driven to build software that is not only visually appealing but also efficient, scalable, and reliable. My commitment to quality and adaptability ensures that each project I undertake is delivered with attention to detail and a user-first mindset.
+                            Hey there! I'm a computer science student at Ontario Tech University, and I absolutely love software development. My journey kicked off when I started creating cool visuals for my YouTube channel, which sparked my passion for crafting seamless and user-friendly digital experiences.
+
+                            These days, I've got a solid handle on front-end technologies like HTML, CSS, JavaScript, React, and Vue.js. I've also dived into back-end development, data analysis, and machine learning, so I can work across the full stack and tackle data-driven projects.
+
+                            What really drives me is turning complex ideas into innovative and functional solutions. I'm all about building software that's not just visually appealing but also efficient, scalable, and reliable. I take pride in paying attention to the details and always put the user experience first. I'm committed to delivering high-quality work and adapting to whatever challenges come my way.
                         </p>
                     </RevealOnScroll>
 
