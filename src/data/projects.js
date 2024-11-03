@@ -7,6 +7,13 @@ const projects = [
         skills: ['HTML', 'CSS', 'Javascript', 'React', 'Tailwind CSS', 'Django', 'Python']
     },
     {
+        title: 'Cell Growth Simulator',
+        description: 'A simulation tool that models the growth of cells in a petri dish. This tool is built using TypeScript and React, and it allows users to customize the simulation parameters.',
+        sampleImage: '1Cells.png',
+        githubUrl: 'https://github.com/yambrose/CellGrowthSimulation',
+        skills: ['TypeScript', 'React']
+    },
+    {
         title: 'Data Mining Project - Data Analysis',
         description: 'A data mining project that analyses school attendance data for 2021-2022 to uncover trends and disparities across different student groups and districts.',
         sampleImage: '1DataAnalysis.png',
@@ -19,13 +26,6 @@ const projects = [
         sampleImage: '1ChatServer.png',
         githubUrl: 'https://github.com/OntarioTech-CS-program/w24-csci2020u-assignment02-saroch-yip-ciceu-consuegra',
         skills: ['HTML', 'CSS', 'Javascript', 'Java', 'Maven', 'Glassfish']
-    },
-    {
-        title: 'Cell Growth Simulator',
-        description: 'A simulation tool that models the growth of cells in a petri dish. This tool is built using TypeScript and React, and it allows users to customize the simulation parameters.',
-        sampleImage: '1Cells.png',
-        githubUrl: 'https://github.com/yambrose/CellGrowthSimulation',
-        skills: ['TypeScript', 'React']
     },
     {
         title: 'Spam Detector',
