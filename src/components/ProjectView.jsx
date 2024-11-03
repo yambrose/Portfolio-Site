@@ -58,9 +58,10 @@ const ProjectView = forwardRef(function ProjectView({ project, handleCloseView }
                         ))}
                     </div>
                     <div className='w-1/4 text-center flex justify-end'>
-                        <span className='hover:bg-blueberry-700 p-1'>
-                            <a href={project.github} className='text-lg font-semibold uppercase text-center pt-4'>Github</a>
-                        </span>
+
+                            <a href={project.githubUrl} target="_blank" rel="noopener noreferrer"
+                            className='text-lg font-semibold uppercase text-center pt-4 cursor-pointer hover:bg-gray-900'>Github</a>
+
                     </div>
                 </div>
             </motion.div>
