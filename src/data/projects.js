@@ -1,24 +1,17 @@
 const projects = [
     {
-        title: 'Minezone MC Official Website',
-        description: 'A full fledged landing page for a Minecraft Server with 300+ active users. This website serves as a hub for players to view server information, rules, and updates.',
+        title: 'Minezone Full-Stack Site',
+        description: 'A full-stack landing page designed for a Minecraft server with 300+ active users. Built using Django for the backend and React for the frontend, it features server details, updates, a forum for community discussions, customizable user profiles, and email APIs for ticketing and password recovery. The site is deployed on AWS EC2 and uses a MySQL database for user data storage.',
         sampleImage: '1Minezone.png',
-        githubUrl: 'https://github.com/MinezoneMC/MinezoneWeb',
-        skills: ['HTML', 'CSS', 'Javascript', 'React', 'Tailwind CSS', 'Django', 'Python']
+        githubUrl: 'https://minezone.site',
+        skills: ['HTML', 'CSS', 'Javascript', 'React', 'Tailwind CSS', 'Django', 'Python', 'MySQL', 'AWS EC2']
     },
     {
         title: 'Cell Growth Simulator',
         description: 'A simulation tool that models the growth of cells in a petri dish. This tool is built using TypeScript and React, and it allows users to customize the simulation parameters.',
         sampleImage: '1Cells.png',
-        githubUrl: 'https://github.com/yambrose/CellGrowthSimulation',
+        githubUrl: 'cells.ambrosey.dev',
         skills: ['TypeScript', 'React']
-    },
-    {
-        title: 'Data Mining Project - Data Analysis',
-        description: 'A data mining project that analyses school attendance data for 2021-2022 to uncover trends and disparities across different student groups and districts.',
-        sampleImage: '1DataAnalysis.png',
-        githubUrl: 'https://github.com/yambrose/SDA-Analysis',
-        skills: ['Python', 'Pandas', 'Matplotlib', 'Jupyter Notebook']
     },
     {
         title: 'Web Chat Server',
@@ -26,6 +19,13 @@ const projects = [
         sampleImage: '1ChatServer.png',
         githubUrl: 'https://github.com/OntarioTech-CS-program/w24-csci2020u-assignment02-saroch-yip-ciceu-consuegra',
         skills: ['HTML', 'CSS', 'Javascript', 'Java', 'Maven', 'Glassfish']
+    },
+    {
+        title: 'Data Mining Project - Data Analysis',
+        description: 'A data mining project that analyses school attendance data for 2021-2022 to uncover trends and disparities across different student groups and districts.',
+        sampleImage: '1DataAnalysis.png',
+        githubUrl: 'https://github.com/yambrose/SDA-Analysis',
+        skills: ['Python', 'Pandas', 'Matplotlib', 'Jupyter Notebook']
     },
     {
         title: 'Spam Detector',

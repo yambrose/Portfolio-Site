@@ -8,7 +8,8 @@ import RevealOnScroll from "./components/RevealOnScroll";
 
 export default function App() {
   return (
-    <body className="bg-blueberry-800">
+    <div className="bg-blueberry-800">
+      
       <TopBar />
 
       <FrontPage />
@@ -22,6 +23,6 @@ export default function App() {
 
       {/* <DialogTest/> */}
 
-    </body>
+    </div>
   );
 }

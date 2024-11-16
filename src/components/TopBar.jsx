@@ -31,7 +31,7 @@ export default function TopBar() {
         <header className={`sticky top-0 z-10 flex items-center justify-between p-7 w-screen bg-blueberry-800 ${!isShrunk ? 'h-24' : 'h-14 shadow-md'} transition-all duration-300`}>
             <div className='flex items-center'>
                 <img src={MonogramIcon} className={`${!isShrunk ? 'w-20' : 'w-10'} transition-all duration-300`} />
-                <h2 className={`pl-2 font-mono ${!isShrunk ? 'text-4xl' : 'text-2xl'} text-cyan-500 transition-all duration-300`}>ambrosey<span className='text-yellow-500'>.dev</span></h2>
+                <h2 className={`pl-2 font-mono ${!isShrunk ? 'text-3xl' : 'text-2xl'} text-cyan-500 transition-all duration-300`}>ambrosey<span className='text-yellow-500'>.dev</span></h2>
             </div>
             <div className='hidden md:flex gap-8'>
                 <button onClick={() => scrollToSection('home')} className={`text-gray-50 ${!isShrunk ? 'text-xl' : 'text-lg'} transition-all duration-300`}>Home</button>
